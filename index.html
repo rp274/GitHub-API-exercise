@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>GitHub API Assignment</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>GitHub API</h1>
+      <form role="form" accept-charset="UTF-8" method="get" class="js-search-form">
+    <fieldset>
+      <legend>Enter GitHub handle:</legend>
+      <input type="text" placeholder="Enter handle" class="js-query" required>
+      <button class="js-submit" type="submit">Submit</button>
+    </fieldset>
+  </form>
+  <p id="js-error-message" class="error-message"></p>
+  <section id="results" class="hidden">
+    <h3 class="results"></h3>
+    <ul id="results-list">
+  </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
